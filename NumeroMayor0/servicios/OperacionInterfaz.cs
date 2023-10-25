@@ -8,6 +8,6 @@ namespace NumeroMayor0.servicios
 {
     internal interface OperacionInterfaz
     {
-        public void operacion();
+        public void operacion(int numero);
     }
 }

@@ -6,8 +6,11 @@ namespace NumeroMayor0.controladores
     {
         public static void Main(string[] args)
         {
+            MenuYSeleccionInterfaz mys = new MenuYSeleccionImplementacion();
+            int seleccion = mys.MenuSeleccionar();
             OperacionInterfaz oi = new OperacionImplementacion();
-            oi.operacion();
+            oi.operacion(seleccion);
+ 
 
         }
     }

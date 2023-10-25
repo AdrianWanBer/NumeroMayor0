@@ -10,10 +10,8 @@ namespace NumeroMayor0.servicios
     internal class OperacionImplementacion : OperacionInterfaz
     {
 
-        public void operacion()
+        public void operacion(int numero)
         {
-            MenuYSeleccionInterfaz mi = new MenuYSeleccionImplementacion();
-            int numero = mi.MenuSeleccionar();
             int ds = 0;
             int sumatorio;
             for (numero = numero; ds <= numero; ds++)
